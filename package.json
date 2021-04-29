@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "npx webpack serve",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "keywords": [
     "typescript",
@@ -14,6 +15,12 @@
   "author": "girish sontakke",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
-  }
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
 }

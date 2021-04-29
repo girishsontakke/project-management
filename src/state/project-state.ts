@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from "../models/project.js";
+import { Project, ProjectStatus } from "../models/project";
 
 type Listner<T> = (activeProjects: T[], finishedProjects: T[]) => void;
 

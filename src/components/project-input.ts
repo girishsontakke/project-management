@@ -1,7 +1,7 @@
-import { ComponentBaseClass } from "./base-component.js";
-import { Validatable, validate } from "../util/validation.js";
-import { AutoBind } from "../decorators/auto-bind.js";
-import { projectState } from "../state/project-state.js";
+import { ComponentBaseClass } from "./base-component";
+import { Validatable, validate } from "../util/validation";
+import { AutoBind } from "../decorators/auto-bind";
+import { projectState } from "../state/project-state";
 
 // UserInput Form
 export class ProjectInput extends ComponentBaseClass<
